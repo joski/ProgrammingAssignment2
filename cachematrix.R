@@ -10,7 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
   #set a new matrix and delete existing inverse
   setMatrix<-function(y){
     x<<-y
-    inverseMatrix<-NULL
+    inverseMatrix<<-NULL
   }
   
   getMatrix <- function() x
